@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilo/estilo.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>Semana Santa en BOLIVIA</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <div class="p-5 bg-dark" style="height: 150px; margin-top: 0px;">
+                <nav class="navbar navbar-expand-lg navbar-light rounded"
+                    style="background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">Semana Santa En Bolivia</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarGlass">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarGlass">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="receta.html">Receta</a>
+                                </li>
+                                <li class="navs-item">
+                                    <a class="nav-link" href="tradiciones.html">Tradiciones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="turismo.html">Turismo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="historia.html">Historia</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="cont1">
+            <div class="container py-5">
+                <h1 class="text-center mb-5">Recetas de Cada Departamento de Bolivia en Semana Santa</h1>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- La Paz -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">La Paz</h5>
+                                <p class="card-text">Sopa de Pan</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalLaPaz">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Santa Cruz -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Santa Cruz</h5>
+                                <p class="card-text">Pescado Frito con Yuca y Plátano</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalSantaCruz">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cochabamba -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Cochabamba</h5>
+                                <p class="card-text">Pej Pejtu de Habas</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalCochabamba">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Beni -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Beni</h5>
+                                <p class="card-text">Chicharron de Surubi</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalBeni">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pando -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Pando</h5>
+                                <p class="card-text">Majadito de Pescado</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalPando">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oruro -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Oruro</h5>
+                                <p class="card-text">Chairo</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalOruro">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Potosí -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Potosí</h5>
+                                <p class="card-text">Ají de Achakana</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalPotosi">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarija -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Tarija</h5>
+                                <p class="card-text">Empanadas de Lacayote</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalTarija">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chuquisaca -->
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Chuquisaca</h5>
+                                <p class="card-text">Ají de Sardina</p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#modalChuquisaca">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal La Paz -->
+            <div class="modal fade" id="modalLaPaz" tabindex="-1" aria-labelledby="modalLaPazLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalLaPazLabel">La Paz</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece1.jpg" class="img-fluid rounded" alt="La Paz">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Sopa de Pan</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Sofríe la cebolla y el ajo, añade leche y orégano. Coloque pan en capas con queso y
+                                    vierta la mezcla. Lleva al horno hasta que gratine. Puedes agregar huevo encima
+                                    antes de hornear.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Santa Cruz -->
+            <div class="modal fade" id="modalSantaCruz" tabindex="-1" aria-labelledby="modalSantaCruzLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSantaCruzLabel">Santa Cruz</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece3.jpg" class="img-fluid rounded" alt="Santa Cruz">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Pescado Frito con Yuca y Plátano</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Marina el pescado con ajo y limón. Fríe hasta dorar. Sirve con yuca hervida y plátano
+                                    frito.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Cochabamba -->
+            <div class="modal fade" id="modalCochabamba" tabindex="-1" aria-labelledby="modalCochabambaLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalCochabambaLabel">Cochabamba</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece2.jpg" class="img-fluid rounded" alt="Cochabamba">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Pej Pejtu de Habas</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Sofríe cebolla, ajo y ají. Agregue las habas cocidas y un poco de caldo. Al final,
+                                    agregue queso desmenuzado y hierbas.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Beni -->
+            <div class="modal fade" id="modalBeni" tabindex="-1" aria-labelledby="modalBeniLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalBeniLabel">Beni</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece8.jpg" class="img-fluid rounded" alt="Beni">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Chicharron de Surubi</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Marina el pescado, empanízalo y fríelo. Sirva con arroz y plátano frito.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Pando -->
+            <div class="modal fade" id="modalPando" tabindex="-1" aria-labelledby="modalPandoLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPandoLabel">Pando</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece9.jpg" class="img-fluid rounded" alt="Pando">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>MAjadito de Pescado</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Cocina arroz con sofrito y pescado desmenuzado. Sirve con plátano frito y huevo.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Oruro -->
+            <div class="modal fade" id="modalOruro" tabindex="-1" aria-labelledby="modalOruroLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalOruroLabel">Oruro</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece5.jpg" class="img-fluid rounded" alt="Oruro">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Chairo</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Cocina todos los ingredientes lentamente hasta lograr una sopa espesa. Para Semana
+                                    Santa, puede prepararse sin carne.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Potosí -->
+            <div class="modal fade" id="modalPotosi" tabindex="-1" aria-labelledby="modalPotosiLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalPotosiLabel">Potosí</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece4.jpg" class="img-fluid rounded" alt="Potosí">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Ají de Achakana</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Sofríe cebolla, ajo y ají. Añade achakana cocida y pelada, junto con papas y chuño.
+                                    Agrega queso al final.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Tarija -->
+            <div class="modal fade" id="modalTarija" tabindex="-1" aria-labelledby="modalTarijaLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTarijaLabel">Tarija</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece7.jpg" class="img-fluid rounded" alt="Tarija">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Empanadas de Lacayote</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Rellena la masa con dulce de lacayote, cierra en forma de empanada, hornea y decora
+                                    con merengue.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Chuquisaca -->
+            <div class="modal fade" id="modalChuquisaca" tabindex="-1" aria-labelledby="modalChuquisacaLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalChuquisacaLabel">Chuquisaca</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="../img/rece6.jpg" class="img-fluid rounded" alt="Chuquisaca">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Ají de Sardina</h4>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Preparación</h4>
+                                <p>Sofríe cebolla, tomate y ají. Agregue las sardinas y papas cocidas. Cocina unos
+                                    minutos y sirve.</p>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pie">
+            <footer class="bg-dark text-white">
+                <div class="container py-3">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4">La semana Santa</h5>
+                            <p>La Semana Santa es una celebración cristiana que recuerda la pasión, muerte y
+                                resurrección de Jesús, con procesiones y actos religiosos durante una semana.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4">Enlaces Rápidos</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="../index.html" class="text-decoration-none text-white">Inicio</a></li>
+                                <li><a href="receta.html" class="text-decoration-none text-white">Receta</a></li>
+                                <li><a href="tradiciones.html" class="text-decoration-none text-white">Tradiciones</a>
+                                </li>
+                                <li><a href="turismo.html" class="text-decoration-none text-white">Turismo</a></li>
+                                <li><a href="historia.html" class="text-decoration-none text-white">Historia</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4">Contacto</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>Universidad Mayor de San Andres
+                                </li>
+                                <li class="mb-2"><i class="bi bi-envelope-fill me-2"></i>zamora@abzp.com</li>
+                                <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+123 456 7890</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-3 border-top border-secondary">
+                    <small>© 2025 Bolivia. Hecho por Zamora Paredes Amilcar Brandon.</small>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
